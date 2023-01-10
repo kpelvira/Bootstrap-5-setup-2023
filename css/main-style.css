@@ -1,0 +1,79 @@
+body {
+  background: #FFF;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.4px;
+  overflow-x: hidden;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+ol {
+  list-style: decimal inside;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 20px;
+  color: #0d141e;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  color: #050707;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
+
+/*************** Page Scrool **************/
+.scrollup {
+  right: 15px;
+  position: fixed;
+  border-radius: 200px;
+  bottom: -80px;
+  width: 45px;
+  height: 45px;
+  z-index: 9999;
+  background: #000;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  text-align: center;
+  color: #FFF;
+  padding: 15px;
+}
+.scrollup .active {
+  bottom: 92px;
+  right: 15px;
+}
+.scrollup:hover {
+  background-color: rgba(37, 37, 37, 0.7);
+}
+
+/*************** Page Scrool ***************/
+
+/*# sourceMappingURL=main-style.css.map */
